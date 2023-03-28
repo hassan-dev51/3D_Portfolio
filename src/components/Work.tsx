@@ -3,11 +3,10 @@
 import React from "react";
 
 import Tilt from "react-tilt";
-import TiltProps from "./Tilt";
 
 import { motion } from "framer-motion";
 import { styles } from "@/styles";
-import { projects, services } from "@/utlis/data";
+import { projects } from "@/utlis/data";
 import { fadeIn, textVariant } from "@/utlis/motion";
 import StartWrapper from "@/hoc/StartWrapper";
 

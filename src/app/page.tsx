@@ -9,6 +9,8 @@ import Experience from "@/components/Experience";
 import Technology from "@/components/Technology";
 import Work from "@/components/Work";
 import FeedBacks from "@/components/FeedBacks";
+import Contact from "@/components/Contact";
+import StarCanvas from "@/components/canvas/StarCanvas";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -27,8 +29,8 @@ export default function Home() {
       <Work />
       <FeedBacks />
       <div className="relative z-0">
-        {/* <Contact />
-        <StarsCanvas /> */}
+        <Contact />
+        <StarCanvas />
       </div>
     </main>
   );
